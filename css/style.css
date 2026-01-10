@@ -7,7 +7,7 @@
 
 body{
   line-height:1.6;
-  background-color: #222f3d;
+  background-color: #ffffff;
 }
 
 /* =======================
@@ -21,12 +21,11 @@ body{
 .wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensures the wrapper is at least the full height of the viewport */
+    min-height: 100vh;
     background-color:  #222f3d;
 }
 
 main {
-    /* flex-grow: 1 makes the main content area expand to fill available vertical space */
     flex-grow: 1; 
     padding: 20px;
 }
